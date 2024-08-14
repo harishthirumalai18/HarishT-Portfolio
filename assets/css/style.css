@@ -447,7 +447,60 @@ main {
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
+ body, figure, p {
+            margin: 0;
+            padding: 0;
+        }
 
+        /* Style the mapbox section */
+        .mapbox {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f5f5f5; /* Light gray background */
+            border-radius: 8px; /* Rounded corners */
+            text-align: center; /* Center-aligns content */
+        }
+
+        /* Style the figure element */
+        .mapbox figure {
+            margin: 0; /* Remove default margins */
+            padding: 0;
+            display: inline-block; /* Align figure to center */
+            width: 100%;
+        }
+
+        /* Style the button */
+        .mapbox button {
+            background-color: #007bff; /* Blue background */
+            color: white; /* White text color */
+            border: none;
+            border-radius: 4px; /* Rounded corners */
+            padding: 10px 20px; /* Padding inside the button */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin-bottom: 15px; /* Space below the button */
+        }
+
+        /* Button hover effect */
+        .mapbox button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Style the paragraph */
+        .mapbox #demo {
+            font-size: 16px; /* Text size */
+            color: #333; /* Dark gray text color */
+            margin: 10px 0; /* Margin around the paragraph */
+        }
+
+        /* Style the iframe */
+        .mapbox iframe {
+            width: 100%; /* Full width */
+            height: 450px; /* Fixed height */
+            border: 0;
+            border-radius: 8px; /* Rounded corners */
+        }
 
 
 /*-----------------------------------*\
